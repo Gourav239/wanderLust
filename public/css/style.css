@@ -1,0 +1,175 @@
+body {
+  /* background: pink !important; */
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Navigation bar (top of the page) */
+.navbar {
+  background: white;
+  height: 5rem;
+}
+
+.fa-compass {
+  font-size: 2rem;
+  color: rgb(206, 72, 128);
+}
+
+.nav-link {
+  color: #222222 !important;
+  opacity: 0.7 ;
+   transition: transform 0.3s ease !important;
+}
+
+.nav-link:hover{
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Image(card) */
+.listing-card {
+  /* width: 100% !important; */
+  margin-bottom: 2rem !important;
+  border: none !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text {
+  text-decoration: none;
+}
+
+.card-img-top {
+  height: 20rem;
+  border-radius: 1rem !important;
+}
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.3;
+  background: white;
+}
+
+/* footer */
+
+.listing-link {
+  text-decoration: none;
+}
+
+.footer {
+  height: 7.5rem;
+  background: #ebebeb;
+}
+
+.f-info {
+  height: 2rem !important;
+  text-align: center;
+}
+
+.f-info-socials i {
+  margin: 0.75rem 0.6rem 1rem 0.6rem;
+  font-size: large;
+}
+
+.f-info-links {
+  margin-top: 1rem;
+}
+.f-info-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+/*Add New Listing */
+
+.form-label {
+  margin-bottom: 0rem !important;
+}
+
+.add-btn,
+.edit-btn {
+  background: rgb(206, 72, 128) !important;
+  border: none !important;
+}
+
+/* Show Listing */
+.show-img {
+  height: 35vh;
+}
+
+.btns {
+  display: flex;
+}
+
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter {
+  margin: 1.75rem 0.75rem 0.65rem 0.75rem;
+  padding: 0.25rem;
+  text-align: center;
+}
+
+.filter {
+  opacity: 0.6;
+  transition: transform 0.3s ease;
+}
+
+.filter:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.tax-toggle {
+  border: 1px solid #3f3f3f;
+  border-radius: 2rem;
+  height: 3rem;
+  width: 17rem;
+  padding: 0.65rem 1rem 0.5rem 1rem;
+}
+
+.search-input {
+  border: 1px solid black !important;
+  border-radius: 1.25rem !important;
+  text-align: center;
+  padding: 0.5rem 2rem 0.5rem 2rem !important;
+}
+
+.search-btn {
+  border-radius: 1.25rem !important;
+  background: rgb(206, 72, 128) !important;
+  color: white !important;
+  
+}
+
+.search-btn:hover {
+  background: white !important;
+  color: rgb(206, 72, 128) !important;
+}
+
+.search-btn i{
+  display: inline; 
+  padding-right: .5rem;
+}
+
+.tax-info{
+  display: none;
+}
